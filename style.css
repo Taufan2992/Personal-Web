@@ -1,0 +1,74 @@
+.container {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 1000px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.container-card {
+    background-color: white;
+    padding-top: 80px;
+    border: 1px solid black;
+    width: 80%;  
+
+}
+
+.container-content {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+}
+
+
+.container-contact button{
+    background-color: rgb(14, 14, 32);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+.container-download a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-fontawesome{
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.container-fontawesome i {
+    margin-right: 15px;
+}
+
+.container-image {
+    width: 30%;
+    margin: auto;
+    border: 1px solid gray;
+    box-shadow: 1px 3px 10px;
+    border-radius: 7px;
+}
+
+.container-image-card{
+    text-align: center;
+}
+
+.container-image-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    
+}
+
